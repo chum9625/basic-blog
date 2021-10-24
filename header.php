@@ -3,8 +3,8 @@
  * The header.
  *
  * @package WordPress
- * @subpackage Test Blog
- * @since Test Blog
+ * @subpackage Basic-blog
+ * @since Basic-blog
  */
 
 ?>
@@ -16,7 +16,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="format-detection" content="telephone=no">
-	<meta name="descryption" content="練習用オリジナルテーマ">
+	<meta name="descryption" content="ベーシックなオリジナルテーマ">
 
 <?php wp_head(); ?>
 </head>
@@ -26,7 +26,7 @@
 	<div class="inner">
 		<div class="header-box">
 			<div class="header-ttl">
-				<a href="<?php echo esc_url( '' ); ?>"><?php bloginfo( 'name' ); ?></a>
+				<a href="<?php echo esc_url( home_url('') ); ?>"><?php bloginfo( 'name' ); ?></a>
 			</div>
 			<p class="header-catch pc"><?php bloginfo( 'description' ); ?></p>
 		</div>

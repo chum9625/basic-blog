@@ -3,8 +3,8 @@
  * The template for displaying all single posts
  *
  * @package WordPress
- * @subpackage Test Blog
- * @since Test Blog
+ * @subpackage Basic-blog
+ * @since Basic-blog
  */
 
 get_header(); ?>

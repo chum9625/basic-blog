@@ -443,7 +443,7 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #2020cb;
+  background:#033a28;
   border-radius: 50%;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
@@ -481,7 +481,7 @@ body {
 
 .pagination .page-numbers.current {
   background: #fff;
-  color: #2020cb;
+  color: #033a28;
 }
 
 .pc {
@@ -513,7 +513,7 @@ body {
 }
 
 .widget-title {
-  background: #2020cb;
+  background: #033a28;
   color: #fff;
   font-size: 2rem;
   font-weight: 700;
@@ -529,7 +529,7 @@ body {
 }
 
 .header {
-  background: #2020cb;
+  background: #033a28;
   color: #fff;
 }
 
@@ -632,7 +632,7 @@ body {
 }
 
 .drawer {
-  background: #2020cb;
+  background: #033a28;
   color: #fff;
   font-weight: 700;
   height: 100vh;
@@ -920,7 +920,7 @@ body {
 }
 
 .article-body h2 {
-  background: #2020cb;
+  background: #033a28;
   color: #fff;
   font-size: 2.4rem;
   font-weight: 700;
@@ -929,14 +929,14 @@ body {
 }
 
 .article-body h3 {
-  border-left: 6px solid #2020cb;
+  border-left: 6px solid #033a28;
   font-size: 2rem;
   margin: 1.25em 0;
   padding: 0.5em 0 0.5em 1em;
 }
 
 .article-body h4 {
-  border-bottom: 3px solid #2020cb;
+  border-bottom: 3px solid #033a28;
   font-size: 1.8rem;
   margin: 1.25em 0;
   padding: 0.5em 0 0.5em 1em;
@@ -974,7 +974,7 @@ body {
 
 .navigation .nav-previous,
 .navigation .nav-next {
-  background: #2020cb;
+  background: #033a28;
   -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   color: #fff;
@@ -1006,13 +1006,13 @@ body {
 }
 
 #toc_container {
-  border: 2px solid #2020cb;
+  border: 2px solid #033a28;
   margin: 30px auto 0;
   width: 85%;
 }
 
 #toc_container .toc_title {
-  background: #2020cb;
+  background: #033a28;
   color: #fff;
   font-weight: 700;
   margin: 0;
@@ -1053,7 +1053,7 @@ body {
 }
 
 .error-btn a {
-  background: #2020cb;
+  background: #033a28;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
   color: #fff;
@@ -1066,7 +1066,7 @@ body {
 }
 
 .footer {
-  background: #2020cb;
+  background: #033a28;
   color: #fff;
 }
 
