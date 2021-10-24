@@ -3,8 +3,8 @@
  * Functions and definitions
  *
  * @package WordPress
- * @subpackage Test Blog
- * @since Test Blog
+ * @subpackage Basic-blog
+ * @since Basic-blog
  */
 
 ?>

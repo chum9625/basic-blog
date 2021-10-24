@@ -3,8 +3,8 @@
  * The template for displaying all page posts
  *
  * @package WordPress
- * @subpackage Test Blog
- * @since Test Blog
+ * @subpackage Basic-blog
+ * @since Basic-blog
  */
 
 get_header(); ?>
@@ -30,7 +30,7 @@ get_header(); ?>
 	<div class="breadclumb">
 		<ul class="breadclumb-list">
 		<li class="breadclumb-home">
-			<a href="<?php esc_url( home_url( '' ) ); ?>">HOME</a>
+			<a href="<?php echo esc_url( home_url( '' ) ); ?>">HOME</a>
 		</li>
 		<li>
 			<i class="fas fa-angle-right"></i>

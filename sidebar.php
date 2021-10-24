@@ -3,8 +3,8 @@
  * The template for displaying sidebar
  *
  * @package WordPress
- * @subpackage Test Blog
- * @since Test Blog
+ * @subpackage Basic-blog
+ * @since Basic-blog
  */
 
 if ( is_active_sidebar( 'sidebar' ) ) {

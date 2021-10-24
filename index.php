@@ -3,8 +3,8 @@
  * The main template file
  *
  * @package WordPress
- * @subpackage Test Blog
- * @since Test Blog
+ * @subpackage Basic-blog
+ * @since Basic-blog
  */
 
 get_header(); ?>

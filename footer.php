@@ -3,8 +3,8 @@
  * The template for displaying the footer
  *
  * @package WordPress
- * @subpackage Test Blog
- * @since Test Blog
+ * @subpackage Basic-blog
+ * @since Basic-blog
  */
 
 ?>
