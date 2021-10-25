@@ -402,7 +402,7 @@ select:focus {
 }
 
 body {
-  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  font-family:  "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
   font-size: 1.6rem;
 }
 
@@ -443,7 +443,7 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background:#033a28;
+  background:#2c3e50;
   border-radius: 50%;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
@@ -481,7 +481,7 @@ body {
 
 .pagination .page-numbers.current {
   background: #fff;
-  color: #033a28;
+  color: #2c3e50;
 }
 
 .pc {
@@ -513,7 +513,7 @@ body {
 }
 
 .widget-title {
-  background: #033a28;
+  background: #2c3e50;
   color: #fff;
   font-size: 2rem;
   font-weight: 700;
@@ -529,7 +529,7 @@ body {
 }
 
 .header {
-  background: #033a28;
+  background: #2c3e50;
   color: #fff;
 }
 
@@ -632,7 +632,7 @@ body {
 }
 
 .drawer {
-  background: #033a28;
+  background: #2c3e50;
   color: #fff;
   font-weight: 700;
   height: 100vh;
@@ -673,6 +673,26 @@ body {
   justify-content: space-between;
   padding-bottom: 3.125em;
   padding-top: 3.125em;
+}
+
+/*境界線*/
+.spikes {
+  position: relative;
+  background: #2c3e50;
+}
+
+.spikes::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: -0%;
+  top: 100%;
+  z-index: 10;
+  display: block;
+  height: 10px;
+  background-size: 10px 100%;
+  background-image: linear-gradient(135deg, #2c3e50 25%, transparent 25%), linear-gradient(225deg, #2c3e50 25%, transparent 25%);
+  background-position: 0 0;
 }
 
 @media screen and (max-width: 767px) {
@@ -920,7 +940,7 @@ body {
 }
 
 .article-body h2 {
-  background: #033a28;
+  background: #2c3e50;
   color: #fff;
   font-size: 2.4rem;
   font-weight: 700;
@@ -929,14 +949,14 @@ body {
 }
 
 .article-body h3 {
-  border-left: 6px solid #033a28;
+  border-left: 6px solid #2c3e50;
   font-size: 2rem;
   margin: 1.25em 0;
   padding: 0.5em 0 0.5em 1em;
 }
 
 .article-body h4 {
-  border-bottom: 3px solid #033a28;
+  border-bottom: 3px solid #2c3e50;
   font-size: 1.8rem;
   margin: 1.25em 0;
   padding: 0.5em 0 0.5em 1em;
@@ -974,7 +994,7 @@ body {
 
 .navigation .nav-previous,
 .navigation .nav-next {
-  background: #033a28;
+  background: #2c3e50;
   -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   color: #fff;
@@ -1006,13 +1026,13 @@ body {
 }
 
 #toc_container {
-  border: 2px solid #033a28;
+  border: 2px solid #2c3e50;
   margin: 30px auto 0;
   width: 85%;
 }
 
 #toc_container .toc_title {
-  background: #033a28;
+  background: #2c3e50;
   color: #fff;
   font-weight: 700;
   margin: 0;
@@ -1053,7 +1073,7 @@ body {
 }
 
 .error-btn a {
-  background: #033a28;
+  background: #2c3e50;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
   color: #fff;
@@ -1066,7 +1086,7 @@ body {
 }
 
 .footer {
-  background: #033a28;
+  background: #2c3e50;
   color: #fff;
 }
 
