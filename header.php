@@ -22,7 +22,7 @@
 </head>
 
 <body>
-<header class="header">
+<header class="header spikes">
 	<div class="inner">
 		<div class="header-box">
 			<div class="header-ttl">
