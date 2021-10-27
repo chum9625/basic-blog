@@ -8,7 +8,7 @@
  */
 
 ?>
-<footer class="footer">
+<footer class="footer spikes-upper">
 <div class="inner">
 <?php
 	wp_nav_menu(
