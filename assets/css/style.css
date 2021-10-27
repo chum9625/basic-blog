@@ -19,7 +19,7 @@ body {
 body {
   background: #fff;
   color: #333;
-  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  font-family: "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.6;
@@ -676,12 +676,12 @@ body {
 }
 
 /*境界線*/
-.spikes {
+.spikes-under {
   position: relative;
   background: #2c3e50;
 }
 
-.spikes::after {
+.spikes-under::after {
   content: '';
   position: absolute;
   right: 0;
@@ -692,6 +692,25 @@ body {
   height: 10px;
   background-size: 10px 100%;
   background-image: linear-gradient(135deg, #2c3e50 25%, transparent 25%), linear-gradient(225deg, #2c3e50 25%, transparent 25%);
+  background-position: 0 0;
+}
+
+.spikes-upper {
+  position: relative;
+  background: #eaeaea;
+}
+
+.spikes-upper::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: -0%;
+  top: 0%;
+  z-index: 10;
+  display: block;
+  height: 10px;
+  background-size: 10px 100%;
+  background-image: linear-gradient(135deg, #eaeaea 25%, transparent 25%), linear-gradient(225deg, #eaeaea 25%, transparent 25%);
   background-position: 0 0;
 }
 
