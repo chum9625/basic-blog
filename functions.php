@@ -68,3 +68,50 @@ function theme_widget_init() {
 	);
 }
 add_action('widgets_init', 'theme_widget_init');
+
+
+function announce_add_dashboard_widgets() {
+	//ダッシュボードにお知らせ追加
+  wp_add_dashboard_widget(
+    'announce_dashboard_widget',
+    'お読みください',
+    'announce_dashboard_widget_function'
+  );
+}
+function announce_dashboard_widget_function() {
+  echo '
+  <h2>注意事項</h2>
+  <p>スラッグは英語表記でお願いします。</p>
+  <hr>
+  <h2>駒猫：アクセス解析レポート</h2>
+	<p><a href="https://datastudio.google.com/s/hCSJPtIbPy0" target="_blank" rel="noopener noreferrer">こちらをクリック</a>
+	</p>
+  ';
+}
+add_action('wp_dashboard_setup', 'announce_add_dashboard_widgets');
+
+function remove_menus () {
+	//管理者以外のユーザーは左メニュー以下の項目を非表示
+	if (!current_user_can('administrator')) {
+	remove_menu_page('wpcf7'); //Contact Form 7
+		remove_menu_page( 'upload.php' );                 // メディア
+		remove_menu_page( 'edit-comments.php' );          // コメント
+		remove_menu_page( 'themes.php' ); // 外観
+		remove_menu_page( 'users.php' ); // ユーザー
+		remove_menu_page( 'profile.php' );                // プロフィール
+		remove_menu_page( 'tools.php' );                  // ツール
+		}
+	}
+	add_action('admin_menu', 'remove_menus');
+
+	function wpqw_remove_dashboard_widget() {
+		//ダッシュボードウィジェットを管理者以外全て非表示にする
+		if ( ! current_user_can( 'administrator' ) ) {
+			remove_action( 'welcome_panel', 'wp_welcome_panel' );
+			remove_meta_box( 'dashboard_right_now', 'dashboard', 'normal' );
+			remove_meta_box( 'dashboard_activity', 'dashboard', 'normal' );
+			remove_meta_box( 'dashboard_quick_press', 'dashboard', 'side' );
+			remove_meta_box( 'dashboard_primary', 'dashboard', 'side' );
+		}
+	}
+	add_action( 'wp_dashboard_setup', 'wpqw_remove_dashboard_widget' );
