@@ -1,6 +1,6 @@
 # basic-blog
 
-WordPressオリジナルテーマ：basic-blog
+- WordPressテーマ：[basic-blog](https://cms.chum9625.com/basic-blog/)
 
 ## コンセプト
 
